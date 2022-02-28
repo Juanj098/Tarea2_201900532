@@ -104,8 +104,9 @@ public class login extends javax.swing.JFrame {
              if (dato[i] != null){                 
                  if (dato[i].getnom().equals(usser) && dato[i].getpass()==pass){
                      System.out.println("bienvenido");
-                     bienvenido ini = new bienvenido();
+                     bienvenido ini = new bienvenido(dato[i].getnom(),dato[i].getpass() , dato);
                      ini.setVisible(true);
+                     
                      break;
                  } else {
                      System.out.println("no existe usuario");

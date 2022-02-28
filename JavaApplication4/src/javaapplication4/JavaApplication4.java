@@ -19,10 +19,10 @@ public class JavaApplication4 {
         int contador = 1;
         // TODO code application logic here
         dato[0] = new datos("juan",201900532);
-        dato[contador] = new datos("pedro",20190033);
-        contador++;
-        dato[contador] = new datos("lucia",201900534);
-        contador++;
+//        dato[contador] = new datos("pedro",201900533);
+//        contador++;
+//        dato[contador] = new datos("lucia",201900534);
+//        contador++;
         
         System.out.println(dato[0].getnom());
         System.out.println(dato[0].getpass());
